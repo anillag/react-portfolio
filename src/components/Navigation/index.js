@@ -10,24 +10,13 @@ function Navigation(props) {
   } = props;
 
   return (
-    <header className="">
+    <header>
       <h2>
-        <a href="/">
-          <span role="img" aria-label="camera">
-            {" "}
-            📸
-          </span>{" "}
-          Oh Snap!
-        </a>
+        <a href="/">Joe Gallina!</a>
       </h2>
       <nav>
-        <ul className="">
-          <li className="">
-            <a href="#about" onClick={() => setContactSelected(false)}>
-              About Me
-            </a>
-          </li>
-          <li className={`${contactSelected && "navActive"}`}>
+        <ul>
+          <li className={`${contactSelected && "active"}`}>
             <span onClick={() => setContactSelected(true)}>Contact</span>
           </li>
           {categories.map((category) => (
@@ -35,7 +24,7 @@ function Navigation(props) {
               className={`${
                 currentCategory.name === category.name &&
                 !contactSelected &&
-                "navActive"
+                "active"
               }`}
               key={category.name}
             >
