@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.f26cb962.css",
+    "main.js": "/react-portfolio/static/js/main.2b729318.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Tech-Blog.png": "/react-portfolio/static/media/Tech-Blog.5ca1f1a985fa95e0978c.png",
+    "static/media/Budget-Tracker.png": "/react-portfolio/static/media/Budget-Tracker.158137594d409f6ff06b.png",
+    "static/media/avatar.png": "/react-portfolio/static/media/avatar.ee9ba74d0be75c94c181.png",
+    "static/media/businessPlanner.png": "/react-portfolio/static/media/businessPlanner.749eb374d00df748cd0b.png",
+    "static/media/Work-Day-Scheduler.png": "/react-portfolio/static/media/Work-Day-Scheduler.9c476964b5a8370f95cb.png",
+    "static/media/Three-Joes.png": "/react-portfolio/static/media/Three-Joes.515c18ed10829af57b74.png",
+    "static/media/Weather-Dashboard.png": "/react-portfolio/static/media/Weather-Dashboard.00a395bcbe54954a75d7.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.f26cb962.css.map": "/react-portfolio/static/css/main.f26cb962.css.map",
+    "main.2b729318.js.map": "/react-portfolio/static/js/main.2b729318.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f26cb962.css",
+    "static/js/main.2b729318.js"
+  ]
+}
