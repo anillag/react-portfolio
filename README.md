@@ -14,7 +14,7 @@ A professional portfolio built in React.
 
 ## Usage
 
-Live URL:
+Live URL: http://anillag.github.io/react-portfolio
 
 ![Screenshot of Joe Gallina's React Portfolio](./src/assets/img/React-Portfolio_screenshot.png)
 
