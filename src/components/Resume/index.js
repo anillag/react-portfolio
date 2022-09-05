@@ -2,11 +2,14 @@ import React from "react";
 
 function Resume() {
   return (
-    <header>
-      <h1 id="resume">
-        Here's a placeholder <a href="/">link</a> to Joe Gallina's resume!
-      </h1>
-    </header>
+    <div className="flex-row">
+      <div className="title"></div>
+      <div className="titletext">
+        <h1>
+          Here's a placeholder <a href="/">link</a> to my resume!
+        </h1>
+      </div>
+    </div>
   );
 }
 
