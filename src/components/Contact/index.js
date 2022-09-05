@@ -30,7 +30,7 @@ function Contact() {
       }
     } else {
       if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
+        setErrorMessage(`The ${e.target.name} field is required.`);
       } else {
         setErrorMessage("");
       }
@@ -41,7 +41,7 @@ function Contact() {
     <section>
       <div className="flex-row">
         <div className="title">
-          <h1>Contact me</h1>
+          <h1>Contact Me</h1>
         </div>
         <div className="titletext">
           <div className="flex-row">
@@ -83,12 +83,12 @@ function Contact() {
                   />
                 </div>
               </div>
+              <button type="submit">Submit</button>
               {errorMessage && (
                 <div>
                   <p className="error-text">{errorMessage}</p>
                 </div>
               )}
-              <button type="submit">Submit</button>
             </form>
           </div>
         </div>

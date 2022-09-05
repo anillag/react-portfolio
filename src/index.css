@@ -8,7 +8,16 @@
 * {
   margin: 0;
   padding: 0;
-  border: 1px solid black;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: ivory;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
 li {
@@ -22,8 +31,13 @@ ul {
   list-style: none;
 }
 
+input,
+textarea {
+  width: 200px;
+}
+
 .active {
-  color: red;
+  color: var(--primary-color);
 }
 
 .flex-row {
@@ -38,10 +52,47 @@ ul {
   flex: 25%;
   text-align: right;
   padding: 10px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .titletext {
   flex: 75%;
   text-align: left;
   padding: 10px;
+  display: inline-block;
+}
+
+.project {
+  flex-wrap: wrap;
+  color: var(--tertiary-color);
+  background-size: cover;
+  background-position: 80%;
+  min-height: 250px;
+  text-shadow: var(--text-shadow);
+  margin: 5px;
+}
+
+.budget-tracker {
+  background-image: url("../src/assets/img/Budget-Tracker.png");
+}
+
+.business-planner {
+  background-image: url("../src/assets/img/businessPlanner.png");
+}
+
+.tech-blog {
+  background-image: url("../src/assets/img/Tech-Blog.png");
+}
+
+.three-joes {
+  background-image: url("../src/assets/img/Three-Joes.png");
+}
+
+.weather-dashboard {
+  background-image: url("../src/assets/img/Weather-Dashboard.png");
+}
+
+.work-day-scheduler {
+  background-image: url("../src/assets/img/Work-Day-Scheduler.png");
 }
