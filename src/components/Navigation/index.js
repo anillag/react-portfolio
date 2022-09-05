@@ -3,10 +3,12 @@ import React from "react";
 function Navigation(props) {
   const {
     categories = [],
+    currentCategory,
     setCurrentCategory,
     contactSelected,
-    currentCategory,
     setContactSelected,
+    resumeSelected,
+    setResumeSelected,
   } = props;
 
   return (
@@ -16,14 +18,12 @@ function Navigation(props) {
       </h2>
       <nav>
         <ul>
-          <li className={`${contactSelected && "active"}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
-          </li>
           {categories.map((category) => (
             <li
               className={`${
                 currentCategory.name === category.name &&
                 !contactSelected &&
+                !resumeSelected &&
                 "active"
               }`}
               key={category.name}
@@ -32,12 +32,33 @@ function Navigation(props) {
                 onClick={() => {
                   setCurrentCategory(category);
                   setContactSelected(false);
+                  setResumeSelected(false);
                 }}
               >
                 {category.name}
               </span>
             </li>
           ))}
+          <li className={`${contactSelected && "active"}`}>
+            <span
+              onClick={() => {
+                setContactSelected(true);
+                setResumeSelected(false);
+              }}
+            >
+              Contact
+            </span>
+          </li>
+          <li className={`${resumeSelected && "active"}`}>
+            <span
+              onClick={() => {
+                setContactSelected(false);
+                setResumeSelected(true);
+              }}
+            >
+              Resume
+            </span>
+          </li>
         </ul>
       </nav>
     </header>
