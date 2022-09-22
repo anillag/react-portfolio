@@ -49,11 +49,11 @@ function Project() {
             </div>
           </article>
         </a>
-        <a href="https://anillag.github.io/Challenge-5-Work-Day-Scheduler/">
-          <article class="project work-day-scheduler">
+        <a href="https://afternoon-citadel-47605.herokuapp.com">
+          <article class="project hive-social-wellness">
             <div>
-              <h3>Work Day Scheduler</h3>
-              <a href="https://github.com/anillag/Challenge-5-Work-Day-Scheduler">
+              <h3>Hive Social Welness</h3>
+              <a href="https://github.com/anillag/hive-social-wellness">
                 GitHub
               </a>
             </div>
